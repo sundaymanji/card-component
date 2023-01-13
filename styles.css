@@ -1,0 +1,132 @@
+html{font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
+    width:  1440px;
+    margin: auto;
+}
+.container{
+    background-color:  hsl(100, 0%, 90%);
+    display: flex;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+h2 {
+color: hsl(0, 0%, 95%);
+padding-bottom: 20px;
+
+}
+
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 50px;
+}
+
+
+.first{
+    position: relative;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+    background-color:  hsl(31, 77%, 52%);
+    margin: none;
+    width: 200px;
+    height: 350px;
+
+    overflow: hidden;
+
+}
+.button1{ 
+    color: hsl(31, 77%, 52%) ;
+    border-color: white;
+}
+.button1:hover{
+    background-color:hsl(31, 77%, 52%);
+    color: white;
+    border-style: ridge;
+
+}
+
+.second{
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%); 
+    width: 200px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.button2{
+    color:hsl(184, 100%, 22%);
+    border-color: white;
+}
+.button2:hover{
+    background-color:hsl(184, 100%, 22%);
+    color: white;
+    border-style: ridge;
+}
+.third{
+    position: relative;
+    padding: 20px;
+    background-color:  hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    height: 350px;
+    overflow: hidden;
+ 
+}
+.button3 {
+    color: hsl(179, 100%, 13%);
+    border-color: white;
+}
+
+.button3:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:white;
+    border-style: ridge;
+}
+button{
+border-style: none;
+background-color: white;
+padding: 10px 20px;
+font-size: 15px;
+border-radius: 20px;
+cursor: pointer;
+}
+
+@media screen and (max-width:647px) {
+
+    html{
+        margin: auto;
+    }
+    .container{
+
+        display: block;
+    }
+    
+    .first{
+        border-top-left-radius:10px ;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        padding: 20px;
+        line-height: 1.5em;
+    }
+    
+    .second{
+        padding: 20px;
+        width: 200px;
+        height: 350px;
+        line-height: 1.5em;
+       padding-bottom: 40px;
+    }
+    
+    .third{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        line-height: 1.5em;
+    }
+}
